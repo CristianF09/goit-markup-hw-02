@@ -12,6 +12,14 @@
   background-color: #ffffff;
 }
 
+.webstudio .png .web {
+  text-color: #4d5ae5;
+}
+
+.webstudio .png .studio {
+  text-color: #2e2f42;
+}
+
 .global-header .main-nav a,
 .global-header .main-nav a:visited {
   color: var=(--link-color);
@@ -25,4 +33,32 @@ ul {
 .global-header .main-nav a.hover {
   color: var=(--link-color_hover);
   cursor: pointer;
+}
+
+.button-first {
+  background-color: #404bbf;
+  border-radius: 4px;
+  color: var(--link-color);
+  width: 69px;
+  height: 48px;
+  top: 428px;
+  padding: 12px, 24px, 12px, 24px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.logo::after {
+  content: "STUDIO";
+  color: #2e2f42;
+}
+
+.global-footer .footer-title {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.logo-footer::after {
+  content: "STUDIO";
+  color: red;
 }
